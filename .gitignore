@@ -1,0 +1,34 @@
+# ---- Maven build output ----
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ---- Secrets / local config ----
+.env
+.env.local
+application-local.properties
+application-secrets.properties
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ---- Eclipse ----
+.settings/
+.project
+.classpath
+.factorypath
+
+# ---- VS Code ----
+.vscode/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+logs/
