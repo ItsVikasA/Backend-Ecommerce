@@ -22,4 +22,9 @@ $env:JWT_SECRET="KVmP5KfaJ9iRDNKCiyTuulnYp+W8u06pxvBeSTTtAkImJ5MKwdlUunXjrGkaCR1
 $env:JWT_EXPIRATION="3600000"
 $env:CORS_ALLOWED_ORIGINS="http://localhost:5173"
 
+# ImageKit credentials
+$env:IMAGEKIT_URL_ENDPOINT="https://ik.imagekit.io/aqqmwk6lz"
+$env:IMAGEKIT_PUBLIC_KEY="public_CgZ9oNQ9ArtBpqLg8KkVh91+z7o="
+$env:IMAGEKIT_PRIVATE_KEY="private_3bdiQpSxXEI45nJ0a2jDM0+Gc/U="
+
 mvn spring-boot:run

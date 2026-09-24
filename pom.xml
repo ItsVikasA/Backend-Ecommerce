@@ -90,6 +90,14 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- ================= ImageKit SDK =================
+             Java SDK for ImageKit.io media management. -->
+        <dependency>
+            <groupId>io.imagekit</groupId>
+            <artifactId>image-kit-java</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+
         <!-- ================= Dev tools =================
              Automatic restart on classpath change during development. -->
         <dependency>

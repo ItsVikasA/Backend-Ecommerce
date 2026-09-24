@@ -23,3 +23,9 @@ services:
         value: 86400000
       - key: CORS_ORIGINS
         sync: false
+      - key: IMAGEKIT_URL_ENDPOINT
+        value: https://ik.imagekit.io/aqqmwk6lz
+      - key: IMAGEKIT_PUBLIC_KEY
+        value: public_CgZ9oNQ9ArtBpqLg8KkVh91+z7o=
+      - key: IMAGEKIT_PRIVATE_KEY
+        sync: false
